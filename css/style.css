@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&display=swap');
+
+
+:root{
+--color-general: #999;
+--color-titulo: #29373c;
+--fondo-gris: #f9faf2;
+--fondo-footer: #f49f28;
+}
+
+header{
+	font-family: Shojumaru;
+}
+
+#hero{
+	font-family: Shojumaru;
+	color: var(fondo-footer);
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	padding: 150px 0;
+	text-align: center;
+	background-position: center;
+	
+}
+
+#hero h1{
+	color: var(--fondo-footer);
+	font-size: 80px;
+	margin-top: 20px;
+}
+#hero p{
+	font-family: Nanum Pen Script;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.amarillo{
+	color: var(--fondo-footer);
+}
+.btn{
+	color: #fff;
+	background-color: var(--fondo-footer);
+	border: 0;
+	font-family: Nanum Pen Script;
+	padding: 7px 10px;
+	margin-top: 80px;
+}
+.btn:hover{
+	background-color: var(--fondo-footer);
+	
+}
+
+.titulos{
+	font-family: Nanum Pen Script;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+	color: var(--color-titulo);
+}
+
+.offer{
+	margin-bottom: 30px;
+}
+.offer img{
+	padding: 40px 0px;
+	width: inherit;
+	margin-left: 150px;
+}
+
+.offer h3{
+	text-align: center;
+	font-family: Nanum Pen Script;
+}
+.offer p{
+	text-align: center;
+	
+}
+#FAQ {
+	background-color: var(--fondo-gris);
+	font-family: Nanum Pen Script;
+	padding: 50px 0px
+}
+
+
+#FAQ img{
+	padding: 40px 0px;
+	width: inherit;
+	margin-left: 100px;
+	padding-top: 80px;
+	
+}
+
+.services img{
+	padding: 40px 0px;
+	width: 20%;
+	margin-left: 100px;
+	padding-top: 80px;
+}
+.services h2{
+	font-family: Nanum Pen Script;
+	text-align: center;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	background-size: cover;
+	padding: 0px 0px;
+	text-align: center;
+	position: cover;
+}
+footer img{
+	padding: 40px 0px;
+	width: 20%;
+	margin-left: 2%;
+	padding-top: 80px;
+}
+
+
+
+
+
